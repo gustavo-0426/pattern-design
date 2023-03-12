@@ -4,10 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.co.softworld</groupId>
-    <artifactId>template-library</artifactId>
+    <artifactId>pattern-design</artifactId>
     <version>1.0.0</version>
-    <name>template-library</name>
-    <description>Demo project for Library</description>
+    <packaging>pom</packaging>
+    <name>pattern-design</name>
+    <description>Project for pattern design</description>
+    <modules>
+        <module>factory-method</module>
+    </modules>
 
     <properties>
         <maven.compiler.target>11</maven.compiler.target>
@@ -22,9 +26,19 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.22</version>
+            <version>1.18.26</version>
         </dependency>
     </dependencies>
 
