@@ -11,6 +11,7 @@
     <description>Project for pattern design</description>
     <modules>
         <module>factory-method</module>
+        <module>abstractFactory</module>
     </modules>
 
     <properties>

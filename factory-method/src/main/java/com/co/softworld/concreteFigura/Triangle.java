@@ -9,7 +9,7 @@ public class Triangle implements IFigure {
     @Override
     public double calculateArea(double base, double height) {
         double result = base * height / 2;
-        log.info("calculateArea from Rectangle, result = " + result);
+        log.info("calculateArea from Triangle, result = " + result);
         return result;
     }
 }
