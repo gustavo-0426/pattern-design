@@ -13,6 +13,7 @@
         <module>factory-method</module>
         <module>abstractFactory</module>
         <module>builderPattern</module>
+        <module>singleton</module>
     </modules>
 
     <properties>
