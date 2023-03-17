@@ -6,7 +6,7 @@ import com.co.softworld.factory.FigureFactory;
 import static com.co.softworld.IConstants.Figure.RECTANGLE;
 import static com.co.softworld.IConstants.Figure.TRIANGLE;
 
-public class App {
+public class AppFactoryMethod {
     public static void main(String[] args) throws Exception {
         IFigure figure = FigureFactory.builderFigure(TRIANGLE);
         figure.calculateArea(3, 2);
