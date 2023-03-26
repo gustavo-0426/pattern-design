@@ -3,8 +3,6 @@
 0src/test/java/com/co/softworld/TemplateTest.java,f/2/f21d2c6ae1d098ef7d023eeafbc11ed71f9e4f83
 j
 :factory-method/src/test/java/com/co/softworld/AppTest.java,f/b/fbcb8b8cf09cba8ba4efccf4d96db0f0ad1b3107
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 F
 factory-method/pom.xml,d/f/df9004dc38f05dc8adac19caff0e546643395d27
 9

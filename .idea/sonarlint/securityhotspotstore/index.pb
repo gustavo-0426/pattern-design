@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 `
 0src/test/java/com/co/softworld/TemplateTest.java,f/2/f21d2c6ae1d098ef7d023eeafbc11ed71f9e4f83
 F
