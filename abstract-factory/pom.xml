@@ -6,7 +6,7 @@
         <artifactId>pattern-design</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>builderPattern</artifactId>
-    <name>builderPattern</name>
+    <artifactId>abstract-factory</artifactId>
+    <name>abstract-factory</name>
 
 </project>
