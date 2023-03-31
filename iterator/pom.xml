@@ -7,7 +7,7 @@
 		<artifactId>pattern-design</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>command</artifactId>
-	<name>command</name>
+	<artifactId>iterator</artifactId>
+	<name>iterator</name>
 
 </project>
