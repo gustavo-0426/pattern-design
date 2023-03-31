@@ -9,3 +9,7 @@ F
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 \
 ,src/main/java/com/co/softworld/Template.java,d/d/ddf3f4bca0f2775f9e6a7fab47a0a7124ce237b8
+H
+abstract-factory/pom.xml,5\e\5ed4f4205c5816124526eb21c56a05456f15924a
+w
+Gabstract-factory/src/main/java/com/co/softworld/AppAbstractFactory.java,b\a\ba4dc5c5e58c4deca5d7465d503ebdeb6844a70b
