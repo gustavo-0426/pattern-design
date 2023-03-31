@@ -8,7 +8,6 @@
 		<version>1.0.0</version>
 	</parent>
 	<artifactId>chain-of-responsibility</artifactId>
-	<version>1.0.0</version>
 	<name>chain-of-responsibility</name>
 
 </project>
