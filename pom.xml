@@ -10,11 +10,13 @@
     <name>pattern-design</name>
     <description>Project for pattern design</description>
     <modules>
-        <module>factory-method</module>
         <module>abstract-factory</module>
         <module>builder-pattern</module>
-        <module>singleton</module>
         <module>chain-of-responsibility</module>
+        <module>command</module>
+        <module>factory-method</module>
+        <module>iterator</module>
+        <module>singleton</module>
     </modules>
 
     <properties>
