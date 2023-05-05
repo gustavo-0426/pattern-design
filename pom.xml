@@ -17,6 +17,7 @@
         <module>factory-method</module>
         <module>iterator</module>
         <module>singleton</module>
+        <module>decorator</module>
     </modules>
 
     <properties>
