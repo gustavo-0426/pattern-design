@@ -8,6 +8,7 @@ import static com.co.softworld.IConstants.Figure.TRIANGLE;
 
 public class AppFactoryMethod {
     public static void main(String[] args) throws Exception {
+
         IFigure figure = FigureFactory.builderFigure(TRIANGLE);
         figure.calculateArea(3, 2);
 

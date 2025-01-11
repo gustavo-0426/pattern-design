@@ -6,6 +6,10 @@ import com.co.softworld.concreteFigura.Rectangle;
 import com.co.softworld.concreteFigura.Triangle;
 
 public class FigureFactory {
+
+    private FigureFactory() {
+    }
+
     public static IFigure builderFigure(Figure figure) throws Exception {
         switch (figure) {
             case TRIANGLE:

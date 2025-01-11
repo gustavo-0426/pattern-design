@@ -1,11 +1,13 @@
 package com.co.softworld.concreteDecorator;
 
 import com.co.softworld.component.Component;
-import com.co.softworld.decorator.TextDecorator;
 
-public class TextLowerCaseDecorator extends TextDecorator {
+public class TextLowerCaseDecorator implements Component {
+
+    protected  Component component;
+
     public TextLowerCaseDecorator(Component component) {
-        super(component);
+        this. component = component;
     }
 
     @Override
