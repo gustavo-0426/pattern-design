@@ -8,15 +8,21 @@ public class Singleton {
     @Setter
     @Getter
     private String name;
-    private static Singleton singleton;
+    private static volatile Singleton instance;
 
     private Singleton() {
     }
 
-    public static Singleton getInstance(){
-        if (singleton == null)
-            singleton = new Singleton();
-        return singleton;
+    public static Singleton getInstance() {
+
+        if (instance == null) {
+            synchronized (Singleton.class) {
+                if (instance == null)
+                    instance = new Singleton();
+            }
+        }
+
+        return instance;
     }
 
 }
