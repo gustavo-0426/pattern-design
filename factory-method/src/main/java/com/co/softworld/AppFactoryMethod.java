@@ -1,18 +1,20 @@
 package com.co.softworld;
 
 import com.co.softworld.IConstants.IFigure;
-import com.co.softworld.factory.FigureFactory;
+import com.co.softworld.concreteCreator.RectangleConcretCreator;
+import com.co.softworld.concreteCreator.TriangleConcretCreator;
 
-import static com.co.softworld.IConstants.Figure.RECTANGLE;
-import static com.co.softworld.IConstants.Figure.TRIANGLE;
 
 public class AppFactoryMethod {
+
     public static void main(String[] args) throws Exception {
 
-        IFigure figure = FigureFactory.builderFigure(TRIANGLE);
-        figure.calculateArea(3, 2);
+        TriangleConcretCreator triangleConcretCreator = new TriangleConcretCreator();
+        IFigure triangle = triangleConcretCreator.createFigure();
+        triangle.calculateArea(3, 2);
 
-        IFigure figure2 = FigureFactory.builderFigure(RECTANGLE);
-        figure2.calculateArea(3, 2);
+        RectangleConcretCreator rectangleConcretCreator = new RectangleConcretCreator();
+        IFigure rectangle = rectangleConcretCreator.createFigure();
+        rectangle.calculateArea(4, 3);
     }
 }
